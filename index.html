@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body style="background-color: #1C5FA0;">
+    <section class="sayoxat" style="color: white;">
+        <div class="sayoxat__container container-fluid">
+            <h1 class="text-center py-4">Who is the first?</h1>
+            <div class="sayoxat__input pb-5">
+                <form class="row" action="/action_page.php" method="get">
+                    <div class="col d-flex justify-content-end">
+                        <label class="h3 " for="distance">Distance</label>
+                    </div>
+                    <div class="col-6">
+                        <input class="form-control" type="number" min="0" step="0.1" placeholder="Please, enter in kilometres!">
+                    </div>
+                    <div class="col">
+                        <button type="col button" class="btn btn-warning">Convert</button>
+                    </div>                    
+                </form>
+            </div>
+            
+            <div class="row text-center pt-5">
+                <div class="col">
+                    <img class="p-3" src="./images/mickey_jaunt.gif" alt="walking" width="200" height="210">
+
+                    <h3 class="my-3">Walk</h3>
+
+                    <p class="walk__time h5">0</p>
+                </div>
+                
+                <div class="col">
+                    <img src="./images/mickey.png" alt="mickey" width="300" height="210">
+                    
+                    <h3 class="my-3">Bike</h3>
+
+                    <p class="bike__time h5">0</p>
+                </div>
+                
+                <div class="col">
+                    <img class="p-4" src="./images/driving.png" alt="driving" width="260" height="210">
+
+                    <h3 class="my-3">Car</h3>
+
+                    <p class="car__time h5">0</p>
+                </div>
+                
+                <div class="col">
+                    <img class="p-4" src="./images/plane.png" alt="plane" width="300" height="210">
+
+                    <h3 class="my-3">Plane</h3>
+
+                    <p class="plane__time h5">0</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
